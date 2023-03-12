@@ -1,0 +1,18 @@
+            p {
+                text-align: center;
+                margin-bottom: 0px;
+                margin-top: 0px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .header {
+                font-weight: bold;
+                font-size: 40px;
+                margin-bottom: 12px;
+            }
+            .bottomText {
+
+            }
+            .underlineText:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise 13.2
+    </title>
+    <style>
+      p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .main-div {
+        display: flex;
+      }
+
+      .left-div {
+        width: 100px;
+        background-color: lightpink;
+      }
+
+      .right-div {
+        background-color: lightblue;
+        width: 200px;
+        
+      }
+
+      .right-row-middle {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .row2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="left-div"></div>
+      <div class="right-div">
+        <div class="right-row-top">
+          <p>
+            row1
+          </p>
+        </div>
+        <div class="right-row-middle">
+          <p class="row2">
+            row2
+          </p>
+          <p class="row2">
+            row2
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
